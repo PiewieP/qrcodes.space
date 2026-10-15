@@ -40,5 +40,6 @@ No context QR codes found in the street. Scan at your own risk.
 <p>
     <img width="128" height="128" src="images/slice19.jpg" hspace="10" >
     <img width="128" height="128" src="images/slice20.jpg" hspace="10" >
+    <img width="128" height="128" src="images/slice21.jpg" hspace="10" >
 </p>
 
