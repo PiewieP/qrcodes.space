@@ -19,7 +19,6 @@ html {
 
 body {
   margin: 0;
-  background: var(--background);
   /* Deep-space starfield */
   background-color: #05070d;
   background-image:
