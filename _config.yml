@@ -1,5 +1,7 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: QR-code thingy.
-description: This is a test website for the QR-code thingy.
+title: QR-code archive
+description: No context QR codes found in the street. Scan at your own risk.
+
+url: "https://qrcodes.space"
+baseurl: ""
+
+markdown: kramdown

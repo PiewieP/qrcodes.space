@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title | default: site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="theme-color" content="#111315">
+
+  <link rel="stylesheet"
+        href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <main class="site-shell">
+    <header class="site-header">
+      <div class="eyebrow">
+        <span class="status-dot"></span>
+        INDEPENDENT QR COLLECTION
+      </div>
+
+      <div class="heading-row">
+        <div>
+          <h1>{{ site.title | escape }}</h1>
+          <p class="site-description">
+            {{ site.description | escape }}
+          </p>
+        </div>
+
+        <div class="header-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="header-meta">
+        <span>FOUND OBJECTS / DIGITAL ARTIFACTS</span>
+        <span>EST. 2026</span>
+      </div>
+    </header>
+
+    <section class="gallery-section">
+      {{ content }}
+    </section>
+
+    <footer class="site-footer">
+      <span>QR-CODE ARCHIVE</span>
+      <span>SCAN AT YOUR OWN RISK.</span>
+    </footer>
+  </main>
+</body>
+</html>
