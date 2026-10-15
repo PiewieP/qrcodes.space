@@ -3,9 +3,7 @@ layout: default
 title: QR-code archive
 ---
 
-{% assign gallery_images = site.static_files
-  | where_exp: "file", "file.path contains '/images/slice' and file.extname == '.jpg'"
-%}
+{% assign gallery_images = site.static_files | where_exp: "file", "file.path contains '/images/slice' " %}
 
 {% assign image_count = gallery_images.size %}
 
@@ -30,7 +28,7 @@ title: QR-code archive
             alt="QR archive object {{ label }}"
             width="128"
             height="128"
-            loading="{% if number <= 8 %}eager{% else %}lazy{% endif %}"
+            loading="lazy"
           >
         </div>
 
