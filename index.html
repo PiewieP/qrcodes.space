@@ -1,6 +1,6 @@
 ---
 layout: default
-title: QR-code archive
+title: QR codes SPACE
 ---
 
 {% assign gallery_images = site.static_files | where_exp: "file", "file.path contains '/images/slice' " %}
@@ -8,7 +8,6 @@ title: QR-code archive
 {% assign image_count = gallery_images.size %}
 
 <div class="gallery-heading">
-  <span>ARCHIVE / QR OBJECTS</span>
   <span>{{ image_count }} QR codes collected in this space</span>
 </div>
 

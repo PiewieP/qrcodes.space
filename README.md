@@ -1,5 +1,4 @@
-# qrcodes.space
-No context QR codes found in the street. Scan at your own risk.
+QR codes found on planet earth. No context provided. Scan at your own risk.
 
 <p>
     <img width="256" height="256" src="images/slice1.jpg" hspace="10" >
