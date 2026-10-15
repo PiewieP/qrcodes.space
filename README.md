@@ -19,3 +19,7 @@ No context QR codes found in the street. Scan at your own risk.
     <img width="128" height="128" src="images/slice9.jpg" hspace="10" >
 </p>
 
+<p>
+    <img width="128" height="128" src="images/slice10.jpg" hspace="10" >
+</p>
+
